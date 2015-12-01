@@ -17,6 +17,14 @@ runGitHub( repo="shiny", username="lecy")
 
 ```
 
+If you would like to run the app in a mode where you can interact with the code, try:
+
+```r
+
+runGitHub( repo="shiny", username="lecy", display.mode = "showcase" )
+
+```
+
 
 If you want to create a permenant webpage with a URL, you need to create a Shiny Applications Online account.
 
